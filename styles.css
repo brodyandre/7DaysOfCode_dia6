@@ -1,0 +1,88 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 20px;
+    margin: 0;
+}
+
+h1 {
+    color: #4CAF50;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-top: 10px;
+    color: #555;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button.hidden {
+    display: none;
+}
+
+input, select {
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 200px;
+}
+
+#formulario, #novaCategoriaForm {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #e7f5e6;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+strong {
+    color: #2e7d32;
+}
+
+.item-container {
+    display: flex;
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.item-checkbox {
+    margin-right: 10px; /* Espaçamento entre o checkbox e o texto */
+}
+
+.hidden {
+    display: none;
+}
+
+#reiniciarBtn {
+    margin-top: 20px; /* Espaçamento acima do botão de reiniciar */
+}

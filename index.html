@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Compras</title>
+    
+    <!-- Link para o arquivo de estilos CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Lista de Compras</h1>
+    <p id="mensagem"></p>
+
+    <button onclick="adicionarItem()">Adicionar Item</button>
+    <button onclick="adicionarCategoria()">Adicionar Categoria</button>
+    <button id="removerBtn" class="hidden" onclick="removerItem()">Remover Item</button>
+    <button onclick="encerrarLista()">Encerrar Lista</button>
+    <button id="reiniciarBtn" class="hidden" onclick="reiniciarLista()">Reiniciar Lista</button>
+
+    <div id="formulario" class="hidden">
+        <h3>Adicionar Item</h3>
+        <input type="text" id="nomeItem" placeholder="Nome do item">
+        <select id="categoria"></select>
+        <button onclick="salvarItem()">Salvar</button>
+    </div>
+
+    <div id="novaCategoriaForm" class="hidden">
+        <h3>Adicionar Categoria</h3>
+        <input type="text" id="novaCategoria" placeholder="Nome da categoria">
+        <button onclick="salvarCategoria()">Salvar Categoria</button>
+    </div>
+
+    <ul id="listaDeCompras"></ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
