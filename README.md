@@ -1,14 +1,13 @@
 # 🛒 Lista de Compras
 
-Este projeto é uma aplicação web simples para gerenciar uma lista de compras. Os usuários podem adicionar itens, organizá-los em categorias, remover itens e encerrar a lista. A aplicação utiliza `localStorage` para persistir os dados, permitindo que os itens sejam recuperados mesmo após o fechamento do navegador.
+Este projeto é uma aplicação web simples para gerenciar uma lista de compras. Os usuários podem adicionar itens, organizá-los em categorias, remover itens e encerrar a lista. 
 
 ## Funcionalidades
 
 - ✅ **Adicionar Itens**: Os usuários podem adicionar itens à lista de compras, selecionando uma categoria para cada item.
 - ❌ **Remover Itens**: Os usuários podem remover itens da lista de compras.
 - 📋 **Encerrar Lista**: Ao encerrar a lista, os itens são organizados por categoria e exibidos em uma interface de resumo.
-- 🔄 **Reabrir Lista**: Após encerrar a lista, os usuários podem reabrir o estado anterior da lista para adicionar mais itens.
-- 💾 **Persistência de Dados**: A lista de compras é salva no `localStorage`, permitindo que os dados sejam mantidos entre as sessões do navegador.
+
 
 ## Tecnologias Utilizadas
 
